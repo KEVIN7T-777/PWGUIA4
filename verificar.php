@@ -14,7 +14,7 @@ if (isset($_POST)) {
 
 	if ($ver>0) {
 		$_SESSION["confirmar"]= true; 
-		header('location: inicio.php');
+		echo "<h1>BIENVENIDO : " . $_POST['usuario'] . " </h1>";
 	}else{
 		header('location: index.php');
 

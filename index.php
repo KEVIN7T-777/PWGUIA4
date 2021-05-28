@@ -23,7 +23,7 @@
 
     /*SI LA SESSION  ESTA DEFINIDA O EL USUARIO SE A LOGUEADO ME ENVIE DIRECTAMENTE A INICIO Y NO ME PERMITIRA INGRESAR AL INDEX MIENTRAS LA SESION SIGUE ABIERTA*/
     if (isset($_SESSION["confirmar"])) {
-        header('location: inicio.php');
+        header('location: verificar.php');
     }
     ?>
 
