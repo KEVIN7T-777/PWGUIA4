@@ -19,7 +19,7 @@ if (!isset($_SESSION["confirmar"])) {
 <body>
     <header>
         <h1 style="font-family:shuriken-std, sans-serif; color: blue;">
-            <marquee> BIENVENIDO</marquee>
+           <h1> <marquee> BIENVENIDO</marquee></h1>
         </h1>
     </header>
 </body>
