@@ -12,14 +12,12 @@ if (!isset($_SESSION["confirmar"])) {
 
 <head>
     <title>INICIO</title>
-    <!--FUENTE LETRA:-->
-    <link rel="stylesheet" href="https://use.typekit.net/mdi6pgl.css">
 </head>
 
 <body>
     <header>
         <h1 style="font-family:shuriken-std, sans-serif; color: blue;">
-            <marquee> BIENVENIDO</marquee>
+            <marquee> BIENVENIDO AL INICIO DEL SISTEMA</marquee>
         </h1>
     </header>
 </body>
